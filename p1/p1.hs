@@ -1,0 +1,1 @@
+main = print $ sum $ filter (\i -> if (mod i 3)==0 || (mod i 5)==0 then True else False) [0..999]
